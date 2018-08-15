@@ -1,0 +1,203 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: powershell.exe
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: C:\Users\sonjo\bootcamp\code\homeWork\LIRI-Bot
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 120
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 50
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a url, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 465
+    content: "\e[0m\e[0K"
+  - delay: 37
+    content: "Windows PowerShell\e[0K\e[?25l\r\nCopyright (C) Microsoft Corporation. All rights reserved.\e[0K\r\n\e[0K\r\n\e[0K\e[?25h"
+  - delay: 187
+    content: "PS C:\\Users\\sonjo\\bootcamp\\code\\homeWork\\LIRI-Bot>\e[0K\e[52G"
+  - delay: 905
+    content: "\e[?25l\rPS C:\\Users\\sonjo\\bootcamp\\code\\homeWork\\LIRI-Bot> \e[0;33;93mterminalizer\e[0m record demo\e[0K\e[?25h"
+  - delay: 531
+    content: "\e[?25l\rPS C:\\Users\\sonjo\\bootcamp\\code\\homeWork\\LIRI-Bot> \e[0;33;93mnode\e[0m .\\liri.js my-tweets\e[0K\e[?25h"
+  - delay: 3369
+    content: "\e[?25l\r\n\e[0K\e[?25h"
+  - delay: 134
+    content: "this is loaded\e[0K\e[?25l\r\n\e[0K\e[?25h"
+  - delay: 248
+    content: "\e[?25l\r\nYour tweets:\e[0K\r\n\e[0K\r\n\e[0K\e[?25h"
+  - delay: 352
+    content: "1. That awesome moment when you try the #BlazinSauce for the first time and you can feel heaven and hell and the same t\e[0Ki\e[?25l\r\nme, thank you @BWWings\e[0K\r\n2. I entered to win a gear-filled IRL Heroes of the Storm Loot Chest! Find out how you can win one too!\e[0K\r\n  https://t.co/9BDICBlQCV\e[0K\r\n3. Que lástima que no todo venga con garantía ...\e[0K\r\n4. La razón es clara dependiendo del ángulo, aunque algunos están a 180*\e[0K\r\n5. #Share4Adoption http://t.co/1MXr3Bkvup\e[0K\r\n6. Entiendo tanto, que no entiendo nada\e[0K\r\n7. two days waiting for @Steam_Support still nothing, this is my first time using the support system how long do I have\e[0K\r\nto wait ? @steam_games\e[0K\r\n8. Más descordinado que zombie en patines\e[0K\r\n9. A simple update can change your world #happy !\e[0K\r\n10. una simple actualización puede cambiar tu mundo #feliz !\e[0K\r\n11. Las limitaciones son sólo ilusiones creadas por los débiles que temen ser superados #perseverancia\e[0K\r\n12. Awesome! https://t.co/Qu64FDporT\e[0K\r\n13. #goodmorning #health #smoothie #nutribullet #magicbullet #carrot #apple #spinach #almondmilk http://t.co/NThpyrkaap\e[0K\r\n14. La historia se repite solamente porque no aprendemos del pasado #tuaprendiste ?\e[0K\r\n15. Playaaaaa\e[0K\r\n16. Aaannnddd finally welcome to #miami b! Tas tas\e[0K\r\n17. Y como así y como así y como fue!\e[0K\r\n18. Y se acabó la miel ! Siempre se acaba, hasta las abejas se murieron\e[0K\r\n19. Bueno bueno no más vallenatos! #FelizAnoNuevo\e[0K\r\n20. #happyNewYear http://t.co/I7qg4awiDw\e[0K\r\n\e[0K\e[?25h"
+  - delay: 18
+    content: "PS C:\\Users\\sonjo\\bootcamp\\code\\homeWork\\LIRI-Bot>\e[0K\e[52G"
+  - delay: 2812
+    content: "\e[?25l\rPS C:\\Users\\sonjo\\bootcamp\\code\\homeWork\\LIRI-Bot> \e[0;33;93mnode\e[0m .\\liri.js my-tweets\e[0K\e[?25h"
+  - delay: 2222
+    content: "\e[?25l\rPS C:\\Users\\sonjo\\bootcamp\\code\\homeWork\\LIRI-Bot> \e[0;33;93mterminalizer\e[0m record demo\e[0K\e[?25h"
+  - delay: 1034
+    content: "\e[?25l\rPS C:\\Users\\sonjo\\bootcamp\\code\\homeWork\\LIRI-Bot> \e[0;33;93mnode\e[0m .\\liri.js my-tweets\e[0K\e[?25h"
+  - delay: 1058
+    content: "\e[?25l\rPS C:\\Users\\sonjo\\bootcamp\\code\\homeWork\\LIRI-Bot> \e[0;33;93mnode\e[0m .\\liri.js spotify-this-song \e[0;36m'Una Aventura'\e[0m\e[0K\e[?25h"
+  - delay: 1654
+    content: "\e[?25l\r\n\e[0K\e[?25h"
+  - delay: 162
+    content: "this is loaded\e[0K\e[?25l\r\n\e[0K\e[?25h"
+  - delay: 780
+    content: "Artist: Banda La Costeña\e[0K\e[?25l\r\nSong: Una Aventura\e[0K\r\nPreview: https://open.spotify.com/track/2ceGP1g5txWAYAnJ3P7Xa5\e[0K\r\nAlbum: Una Aventura\e[0K\r\nPS C:\\Users\\sonjo\\bootcamp\\code\\homeWork\\LIRI-Bot>\e[0K\e[52G\e[?25h"
+  - delay: 2559
+    content: "\e[?25l\rPS C:\\Users\\sonjo\\bootcamp\\code\\homeWork\\LIRI-Bot> \e[0;33;93mnode\e[0m .\\liri.js spotify-this-song \e[0;36m'Una Aventura'\e[0m\e[0K\e[?25h"
+  - delay: 378
+    content: "\e[?25l\rPS C:\\Users\\sonjo\\bootcamp\\code\\homeWork\\LIRI-Bot> \e[0;33;93mnode\e[0m .\\liri.js my-tweets\e[0K\e[?25h"
+  - delay: 410
+    content: "\e[?25l\rPS C:\\Users\\sonjo\\bootcamp\\code\\homeWork\\LIRI-Bot> \e[0;33;93mterminalizer\e[0m record demo\e[0K\e[?25h"
+  - delay: 500
+    content: "\e[?25l\rPS C:\\Users\\sonjo\\bootcamp\\code\\homeWork\\LIRI-Bot> \e[0;33;93mnode\e[0m .\\liri.js my-tweets\e[0K\e[?25h"
+  - delay: 934
+    content: "\e[?25l\rPS C:\\Users\\sonjo\\bootcamp\\code\\homeWork\\LIRI-Bot> \e[0;33;93mnode\e[0m .\\liri.js spotify-this-song \e[0;36m'Una Aventura'\e[0m\e[0K\e[?25h"
+  - delay: 747
+    content: "\e[?25l\rPS C:\\Users\\sonjo\\bootcamp\\code\\homeWork\\LIRI-Bot> \e[0;33;93mnode\e[0m .\\liri.js movie-this \e[0;36m'star wars'\e[0m\e[0K\e[?25h"
+  - delay: 3405
+    content: "\e[?25l\r\n\e[0K\e[?25h"
+  - delay: 126
+    content: "this is loaded\e[0K\e[?25l\r\n\e[0K\e[?25h"
+  - delay: 314
+    content: "\e[?25l\r\nTitle: Star Wars: Episode IV - A New Hope\e[0K\r\nYear: 1977\e[0K\r\nIMDB rating: 8.6\e[0K\r\nRotten Tomatoes rating: 93%\e[0K\r\nProduced in: USA\e[0K\r\nLanguage: English\e[0K\r\nPlot: Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from t\e[0Kh\r\ne Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the evil Darth Vader.\e[0K\r\nActors: Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing\e[0K\r\n\e[0K\e[?25h"
+  - delay: 35
+    content: "PS C:\\Users\\sonjo\\bootcamp\\code\\homeWork\\LIRI-Bot>\e[0K\e[52G"
+  - delay: 2972
+    content: "\e[?25l\rPS C:\\Users\\sonjo\\bootcamp\\code\\homeWork\\LIRI-Bot> \e[0;33;93mnode\e[0m .\\liri.js movie-this \e[0;36m'star wars'\e[0m\e[0K\e[?25h"
+  - delay: 594
+    content: "\e[?25l\rPS C:\\Users\\sonjo\\bootcamp\\code\\homeWork\\LIRI-Bot> \e[0;33;93mnode\e[0m .\\liri.js spotify-this-song \e[0;36m'Una Aventura'\e[0m\e[0K\e[?25h"
+  - delay: 466
+    content: "\e[?25l\rPS C:\\Users\\sonjo\\bootcamp\\code\\homeWork\\LIRI-Bot> \e[0;33;93mnode\e[0m .\\liri.js my-tweets\e[0K\e[?25h"
+  - delay: 1595
+    content: "\e[?25l\rPS C:\\Users\\sonjo\\bootcamp\\code\\homeWork\\LIRI-Bot> \e[0;33;93mterminalizer\e[0m record demo\e[0K\e[?25h"
+  - delay: 810
+    content: "\e[?25l\rPS C:\\Users\\sonjo\\bootcamp\\code\\homeWork\\LIRI-Bot> \e[0;33;93mnode\e[0m .\\liri.js my-tweets\e[0K\e[?25h"
+  - delay: 1371
+    content: "\e[?25l\rPS C:\\Users\\sonjo\\bootcamp\\code\\homeWork\\LIRI-Bot> \e[0;33;93mnode\e[0m .\\liri.js spotify-this-song \e[0;36m'Una Aventura'\e[0m\e[0K\e[?25h"
+  - delay: 1378
+    content: "\e[?25l\rPS C:\\Users\\sonjo\\bootcamp\\code\\homeWork\\LIRI-Bot> \e[0;33;93mnode\e[0m .\\liri.js movie-this \e[0;36m'star wars'\e[0m\e[0K\e[?25h"
+  - delay: 720
+    content: "\e[?25l\rPS C:\\Users\\sonjo\\bootcamp\\code\\homeWork\\LIRI-Bot> \e[0;33;93mnode\e[0m .\\liri.js do-what-it-says\e[0K\e[?25h"
+  - delay: 2688
+    content: "\e[?25l\r\n\e[0K\e[?25h"
+  - delay: 125
+    content: "this is loaded\e[0K\e[?25l\r\n\e[0K\e[?25h"
+  - delay: 250
+    content: "\e[?25l\r\nReading from text file\e[0K\r\n\e[0K\r\nexecuting \"spotify-this-song\" command with the following parameter: \"I Want it That Way\"\e[0K\r\n\e[0K\r\n\e[0K\e[?25h"
+  - delay: 621
+    content: "Artist: Backstreet Boys\e[0K\e[?25l\r\nSong: I Want It That Way\e[0K\r\nPreview: https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6\e[0K\r\nAlbum: The Hits--Chapter One\e[0K\r\n\e[0K\e[?25h"
+  - delay: 33
+    content: "PS C:\\Users\\sonjo\\bootcamp\\code\\homeWork\\LIRI-Bot>\e[0K\e[52G"
+  - delay: 2097
+    content: "\e[?25l\rPS C:\\Users\\sonjo\\bootcamp\\code\\homeWork\\LIRI-Bot> \e[0;33;93me\e[0m\e[0K\e[?25h"
+  - delay: 219
+    content: "\e[0;33;93mx\e[0m\e[0K"
+  - delay: 181
+    content: "\e[0;33;93mi\e[0m\e[0K"
+  - delay: 226
+    content: "\e[?25l\rPS C:\\Users\\sonjo\\bootcamp\\code\\homeWork\\LIRI-Bot> \e[0;32;92mexit\e[0m\e[0K\e[?25h"
+  - delay: 719
+    content: "\e[?25l\r\n\e[0K\e[?25h"

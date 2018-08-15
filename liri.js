@@ -11,7 +11,6 @@ var spotify = new Spotify(keys.spotify);
 var client = new Twitter(keys.twitter);
 
 var selection = process.argv[2];
-// var searchQuery = process.argv[3];
 
 var liriBot = {
     commands: ['my-tweets', 'spotify-this-song', 'movie-this', 'do-what-it-says'],
